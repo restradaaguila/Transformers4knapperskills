@@ -43,9 +43,11 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 ![5 epochs](https://user-images.githubusercontent.com/80427603/233378722-0fcc10da-c7cf-45fd-867b-8a571420758f.png)
 ![confusionmatrix_5epochs](https://user-images.githubusercontent.com/80427603/233378743-048b2d4e-272f-4ac7-a3cf-0b0764498166.png)
 
+Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
+![4](https://user-images.githubusercontent.com/80427603/233383000-fd3afc8e-96c0-4f3f-9776-13cdf51b652f.png)
 
+![2](https://user-images.githubusercontent.com/80427603/233383033-37a86e72-6c8c-41e0-8d4c-1c774a7ce20e.png)
 
-+
 ## Code Demo time!
 + https://colab.research.google.com/drive/1NmxwBfK5MkQQ521gnCyHvofEMKbTvxG-#scrollTo=LSnQ0eX0t1bd
 
