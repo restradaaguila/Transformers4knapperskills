@@ -17,6 +17,7 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 
 ![Figure3_PartAn3D_analyzer](https://user-images.githubusercontent.com/80427603/233233767-3ada0aaa-bb21-4b1a-b8dd-0f6bf7011fc5.jpg)
 ![Screenshot 2023-04-20 001215](https://user-images.githubusercontent.com/80427603/233264364-463b1714-9cc9-494b-be0b-444754d659d7.png)
+
 + 8000 images were fed into the models- 5000 from the Expert category and 3000 from the Novice category
 # The Models
 + Vision Transformer
@@ -33,10 +34,18 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 
   
 ## Results
-+ 
++ ViT base
+   + 3 epochs
+![ViTtrainingresults](https://user-images.githubusercontent.com/80427603/233378433-3583c1e2-b114-4434-a5da-4d3fadb92305.png)
+
+![confusionmatrixViT](https://user-images.githubusercontent.com/80427603/233378449-09656102-d19e-4ef7-b02e-38a5b28f216b.png)
+   + 5 epochs
+![5 epochs](https://user-images.githubusercontent.com/80427603/233378722-0fcc10da-c7cf-45fd-867b-8a571420758f.png)
+![confusionmatrix_5epochs](https://user-images.githubusercontent.com/80427603/233378743-048b2d4e-272f-4ac7-a3cf-0b0764498166.png)
 
 
 
++
 ## Code Demo time!
 + https://colab.research.google.com/drive/1NmxwBfK5MkQQ521gnCyHvofEMKbTvxG-#scrollTo=LSnQ0eX0t1bd
 
