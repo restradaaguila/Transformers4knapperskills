@@ -15,7 +15,7 @@ This study seeks to combine Dynamic Image Analysis and deep learning methods to 
       +  Comparing CNN and Vision tranformer performance
    +  Not focusing on the product, but on the byproduct!
 +  The Task
-   +   Image classification: Can a vision transformer accurately identify the debitage assemblage to the knapper who made it?  Can it identify the novice from the Experts?
+   +   Image classification: Can a vision transformer accurately identify the debitage assemblage to the knapper who made it?  Can it identify the "signatures" of Novice knapper from the Experts that might elude the human eye?
  
 
 ![Figure 2_Volunteer_knapper](https://user-images.githubusercontent.com/80427603/233222699-6fbd0a22-167d-4e1a-a1ec-78499defad63.jpg)
