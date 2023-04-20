@@ -7,11 +7,14 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 + While flintknapping studies in archaeology have always been present and popular within the discipline, recent research on flintknapping reflects a growing interest in the connection between artifact variability and the skill of past craft workers. Integral to these investigations is the development of methods to identify the material “signatures” of novice and expert  manufacturers. 
 +  However,  archaeological investigations on craft and skills are faced with the challenge of identifying craftsmanship and skill acquisition in the material record (Roddick and Stahl 2016:7, Wendrich 2013, Milne 2013). To bridge the gap between past craft production and present interest in these topics, archaeologusts can turn to living craftspeople replicating ancient techniques and technologies (experimental archaeology). 
 
-![Figure 2_Volunteer_knapper](https://user-images.githubusercontent.com/80427603/233222699-6fbd0a22-167d-4e1a-a1ec-78499defad63.jpg)
-![image] (
-Knapping communities of the past and skill acquisition in ancient Maya society 
++ Knapping communities of the past and skill acquisition in ancient Maya society 
 
-Experimental knapping and novice/expert ID 
++ Experimental knapping and novice/expert ID 
+
+![Figure 2_Volunteer_knapper](https://user-images.githubusercontent.com/80427603/233222699-6fbd0a22-167d-4e1a-a1ec-78499defad63.jpg)
+![Debitage pic](https://user-images.githubusercontent.com/80427603/233234557-d92cbcbd-8ac3-4435-ac9c-99eb4090020d.png)
+
+![Figure3_PartAn3D_analyzer](https://user-images.githubusercontent.com/80427603/233233767-3ada0aaa-bb21-4b1a-b8dd-0f6bf7011fc5.jpg)
 
    
 ## Approach 
