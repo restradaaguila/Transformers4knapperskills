@@ -12,26 +12,25 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 ![Debitage pic](https://user-images.githubusercontent.com/80427603/233234557-d92cbcbd-8ac3-4435-ac9c-99eb4090020d.png)
 + Debitage- byproduct of knapping; Microdebitage- flintknapping debris smaller than about a 1/4 inch long. They are fairly difficult to analyze because of their small size, but because of that microdebitage is less likely to be moved, modified, disposed by people. 
    
-## Approach 
-+   Comapring CNN and Vision transformer
+## Dataset Information and Classification
+   + The chert debitage collected for this study was produced from experimental knapping collected from Tennessee knap-ins between July and October 2021. The debitage collected represents two experience levels chosen to train the models: Novice and Expert. These categories are based on the years of experience of the knapper. The data on experience was gathered from the short surveys and brief interviews. Debitage was gathered from three volunteer knappers with varying years of experience. The novice knapper had less than a year of experience and the two volunteers classified under expert have 7 and 15 years of knapping experience. 
+
+# The Models
++Comapring CNN and Vision transformer
 ![Figure3_PartAn3D_analyzer](https://user-images.githubusercontent.com/80427603/233233767-3ada0aaa-bb21-4b1a-b8dd-0f6bf7011fc5.jpg)
 +   Comapring CNN and Vision transformer
++ Transformer 
+  + 8004 images were fed to the transformer model 
 ## Architecture Overview
  + ViT 
-   + Encoder operates on the patches without mask tokens (below we see the patches with the flamingo visible are going into the encoder)
-   + Embeds patches using linear projection and encodes positional embeds  
-   + Output is a latent vector representation 
-+ Decoder
-   + Pre-training only
-   + Input- all tokens, masked patches and encoded visible patches
-   + Mask tokens signal a missing patch to be predited
-   + positional embeds added to all tokens
-   + Full input image is reconstructed with predicted pixel values for masked squares. 
-+ Differences between input image and reconstruction are measured and used as loss (mean sq. error)
-+ After pre-training decoder is discarded and encoder is kept for fine tuning, later used downstream tasks 
+   + Fine tuning
+ + CNN and Resnet 
+   + The code for the deep learning model used here is adapted from Johnson et al. which was modified from Practical Deep Learning for Coders course on Fast.ai (see Resources). The images were analyzed using pre-trained CNN models from Fast.ai and were  resized to 128x128. Four CNN models were used on the debitage photos, each with an increased number of “layers” which were expected to increase accuracy. The images were initially analyzed with ResNet18, followed by ResNet34, ResNet50, ResNet101, and ResNet152.
+   + The number of epochs, the number of times the training data is passed through the CNN, was increased from the initial 4 of the original code to 8 epochs.
+
   
 ## Results
-Image with mask tokens, reconstructed image, original image
++ 
 
 
 
@@ -42,9 +41,11 @@ Image with mask tokens, reconstructed image, original image
 
 + Archaeologist’s approach to identifying novice work can be based on assumptions - novice/apprentice craftspeople are assumed to produce low quality products. 
    + “poor quality” is relative and unclear (Wendrich 2013). DIA and deep learning models, like ViT, may provide a method to avoid this unreliable term along with other assumptions on how to identify novice and expert craftsmanship in the archaeological reocrd. 
-+ What's next?
-   + 
++ This preliminary study is the first step in applying transformer and CNN models to identify skill level in debitage assemblages. Our method, once refined and tested with archaeological samples, has the implications to impact  how archaeologists approach and identify skill in the lithic archaeological record. 
 
++ What's next?
+   + Controlling the data- Factors outside of skill level that may have contributed to our results. These factors might be raw material type or heat treatment, and reduction technique. One aspect of this study that can be improved is the consistency of the raw material of the debitage. The knappers in this preliminary study used different chert varieties and one knapper worked with heat treated stone, while the others did not. The next phase of the research is to ensure that the material used to produce the debitage samples are similar (same stone type, treatment, and knapping techniques).  This step would help minimize any other factors linked to the material and technique that can contribute to the CNN and transformer results.
+   + Applying larger vision models to see if accuracy is improved 
 
 ## Additional Resources 
 + Intro to autoencoders video (https://www.youtube.com/watch?v=qiUEgSCyY5o&ab_channel=IBMTechnology)
