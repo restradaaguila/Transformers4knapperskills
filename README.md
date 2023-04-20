@@ -10,7 +10,7 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 
 ![Figure 2_Volunteer_knapper](https://user-images.githubusercontent.com/80427603/233222699-6fbd0a22-167d-4e1a-a1ec-78499defad63.jpg)
 ![Debitage pic](https://user-images.githubusercontent.com/80427603/233234557-d92cbcbd-8ac3-4435-ac9c-99eb4090020d.png)
-+ Microdebitage- flintknapping debris smaller than about a 1/4 inch long. They are fairly difficult to analyze because of their small size, but because of that microdebitage is less likely to be moved, modified, disposed by people. 
++ Debitage- byproduct of knapping; Microdebitage- flintknapping debris smaller than about a 1/4 inch long. They are fairly difficult to analyze because of their small size, but because of that microdebitage is less likely to be moved, modified, disposed by people. 
    
 ## Approach 
 +   Comapring CNN and Vision transformer
@@ -33,34 +33,7 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 ## Results
 Image with mask tokens, reconstructed image, original image
 
-![image](https://user-images.githubusercontent.com/80427603/223009216-00b5c5a3-597b-4224-8e5f-bbb50080c8fe.png)
 
-![image](https://user-images.githubusercontent.com/80427603/223009302-ad59be13-7681-4f59-8e22-be8c309f39a5.png)
-
- Key results
-   + 75% masking (BERT 15%)
-   + Decoder can be lightweight and independent from encoder- large encoder for downstream tasks 
-   + Encoder with mask tokens does not perform as well
-   + Random sampling is optimal sampling strategy
-   
-![image](https://user-images.githubusercontent.com/80427603/223475154-c3d780a5-2761-492d-b3f8-cf41365f29b6.png)
-
-![image](https://user-images.githubusercontent.com/80427603/223462902-286da5df-c9f8-4bfe-b87f-0cb6056b6687.png)
-
-  + Performs well with and without data augmentation- role is done by random masking
-  
-![image](https://user-images.githubusercontent.com/80427603/223469167-8b285c58-f969-47ec-a820-5a2b4945a321.png)
-
-  + increase in image reconstruction accuracy 
-  + faster training (3x faster) than a whole image
-  
-+ Performance of MAE is tested on downstream tasks
-
-![image](https://user-images.githubusercontent.com/80427603/223478348-cc410082-609e-44c5-b669-92cfd2a28b14.png)
-![image](https://user-images.githubusercontent.com/80427603/223478509-34a6ff0e-a267-4f43-ac9b-842f6d31fac9.png)
-   + Tables 5 and 4 compare MAE to DINO, MoCov3 and BEiT performance
-   + Table 6 shows scaling behavior: accuracy improves with bigger models (ViT Huge) , applied to INaturalist and Places  
-   + Table 7 shows comparison of pixel and token reconstruction. Pixel based reconstruction works fine (if normalized)
 
 ## Code Demo time!
 + https://colab.research.google.com/drive/1NmxwBfK5MkQQ521gnCyHvofEMKbTvxG-#scrollTo=LSnQ0eX0t1bd
