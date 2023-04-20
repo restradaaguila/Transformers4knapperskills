@@ -1,5 +1,5 @@
 # Transformers4knapperskills
-This study seeks to combine DIA and deep learning methods to evaluate if debitage assemblages from knappers with different expertise levels vary significantly. We collected debitage from knappers with varying levels of expertise ranging between <1-15 years of experience.  
+This study seeks to combine Dynamic Image Analysis and deep learning methods to evaluate if debitage assemblages from knappers with different expertise levels vary significantly. We collected debitage from knappers with varying levels of expertise ranging between <1-15 years of experience.  
 
 ## My Research- Skill and Craftspeople in the Past 
 
@@ -17,7 +17,7 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 
 ![Figure3_PartAn3D_analyzer](https://user-images.githubusercontent.com/80427603/233233767-3ada0aaa-bb21-4b1a-b8dd-0f6bf7011fc5.jpg)
 ![Screenshot 2023-04-20 001215](https://user-images.githubusercontent.com/80427603/233264364-463b1714-9cc9-494b-be0b-444754d659d7.png)
-
++ Partocle analyzer 
 + 8000 images were fed into the models- 5000 from the Expert category and 3000 from the Novice category
 # The Models
 + Vision Transformer
@@ -81,7 +81,7 @@ Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
    + Clark, John E. 
 1997	Prismatic Blademaking, Craftsmanship, and Production: An analysis of obsidian refuse from Ojo de Agua, Chiapas, Mexico. Ancient Mesoamerica 8: 137-159.
 
-   2003	Craftsmanship and Craft Specialization. In Mesoamerican Lithic Technology: Experimentation and Interpretation, edited by K.G. Hirth. Salt Lake City: University of Utah Press, Salt Lake City. 
+   + 2003	Craftsmanship and Craft Specialization. In Mesoamerican Lithic Technology: Experimentation and Interpretation, edited by K.G. Hirth. Salt Lake City: University of Utah Press, Salt Lake City. 
 
 
 
