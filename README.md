@@ -44,8 +44,11 @@ This study seeks to combine Dynamic Image Analysis and deep learning methods to 
 ![confusionmatrix_5epochs](https://user-images.githubusercontent.com/80427603/233378743-048b2d4e-272f-4ac7-a3cf-0b0764498166.png)
 + ViT large 
    + 3 epochs
+   
 ![Screens![Screenshot 2023-04-20 092006](https://user-images.githubusercontent.com/80427603/233396439-3629bed4-d20a-4d7a-980e-906534374884.png)
 hot 2023-04-20 091907](https://user-images.githubusercontent.com/80427603/233396387-1fb18026-8516-4110-bb93-13e2670baa7b.png)
+![Screenshot 2023-04-20 092006](https://user-images.githubusercontent.com/80427603/233399092-316d1383-c6d5-4e92-962e-8825b94958cc.png)
+
    + 4 epochs 
  
 
