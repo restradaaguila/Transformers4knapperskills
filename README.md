@@ -95,7 +95,8 @@ Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
 
 + What's next?
    + Controlling the data- Factors outside of skill level that may have contributed to our results. These factors might be raw material type or heat treatment, and reduction technique. One aspect of this study that can be improved is the consistency of the raw material of the debitage. The knappers in this preliminary study used different chert varieties and one knapper worked with heat treated stone, while the others did not. The next phase of the research is to ensure that the material used to produce the debitage samples are similar (same stone type, treatment, and knapping techniques).  This step would help minimize any other factors linked to the material and technique that can contribute to the CNN and transformer results.
-   + Applying more epochs to the ViT to see if accuracy is improved- The ViT Large at 4 epochs results are comparable to the Resnet152 at 8 epochs. Time to get the results is longer with the Resnet because it has to go through 8 epochs. 
+   + Applying more tweaks to the ViT to see if accuracy is improved- The ViT Large at 4 epochs results are comparable to the Resnet152 at 8 epochs. Time to get the results is longer with the Resnet because it has to go through 8 epochs. 
+   + What other categories related to flintknapping can be identified? 
 
 ## Additional Resources 
 + Intro to fast.ai https://arxiv.org/abs/2002.04688
