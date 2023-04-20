@@ -88,8 +88,7 @@ Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
  1989 	Experiments in Lithic Technology. BAR International Series 528, Oxford. 
    + Clark, John E. 
 1997	Prismatic Blademaking, Craftsmanship, and Production: An analysis of obsidian refuse from Ojo de Agua, Chiapas, Mexico. Ancient Mesoamerica 8: 137-159.
-
-   + 2003	Craftsmanship and Craft Specialization. In Mesoamerican Lithic Technology: Experimentation and Interpretation, edited by K.G. Hirth. Salt Lake City: University of Utah Press, Salt Lake City. 
+       + 2003	Craftsmanship and Craft Specialization. In Mesoamerican Lithic Technology: Experimentation and Interpretation, edited by K.G. Hirth. Salt Lake City: University of Utah Press, Salt Lake City. 
 
 
 
