@@ -36,7 +36,7 @@ This study seeks to combine Dynamic Image Analysis and deep learning methods to 
 ## Results
 + ViT base
    + 3 epochs
-![ViTtrainingresults](https://user-images.githubusercontent.com/80427603/233378433-3583c1e2-b114-4434-a5da-4d3fadb92305.png)
+![ViTtrainingresults](https://user-images.githubusercontent.com/80427603/233410620-d6bf03b0-9548-4a9a-bafd-214eec2f0d0e.png)
 
 ![confusionmatrixViT](https://user-images.githubusercontent.com/80427603/233378449-09656102-d19e-4ef7-b02e-38a5b28f216b.png)
     + 5 epochs
