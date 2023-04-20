@@ -24,12 +24,14 @@ This study seeks to combine Dynamic Image Analysis and deep learning methods to 
 # The Models
 + Vision Transformer
 ![image](https://user-images.githubusercontent.com/80427603/233266971-7779a9d0-2d30-4837-8251-06479ecc8398.png)
+![the-transformer-block-vit](https://user-images.githubusercontent.com/80427603/233422356-58456d66-18c3-4dff-9889-1967935084d8.png)
+*Illustrations from Dosovitskiy el al (2020)
 
- +proposed in An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale by  Dosovitskiy et al  (2020). 
+ + Proposed in An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale by  Dosovitskiy et al  (2020) (See Resources). 
 
  + I used ViT base and large models
  	+ Pre-trained on ImageNet-21k, 14 million images, 21,843 classes at resolution 224x224
-   + Images are fed to the model as a sequence of fixed size, non-overlapping patches (resolution 16x16), which are linearly embedded. Positional embeddings and classification tokens (used for classification tasks) are added. The sequence then passes through  a Transformer encoder. 
+   + Images are fed to the model as a sequence of fixed size, non-overlapping patches (resolution 16x16), which are linearly embedded. Positional embeddings and classification tokens (used for classification tasks) are added. The sequence then passes through  a Transformer encoder. Linear layer, MLP head, is used for final classification.  
    + Images are resized/rescaled to the same resolution (224x224)
    + normalized across the RGB channels with mean (0.5, 0.5, 0.5) and standard deviation (0.5, 0.5, 0.5).
 
