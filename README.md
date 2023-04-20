@@ -19,15 +19,16 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 ![Screenshot 2023-04-20 001215](https://user-images.githubusercontent.com/80427603/233264364-463b1714-9cc9-494b-be0b-444754d659d7.png)
 + 8000 images were fed into the models- 5000 from the Expert category and 3000 from the Novice category
 # The Models
-+Comapring CNN and Vision transformer
-+   Comapring CNN and Vision transformer
-  + 8004 images were fed to the transformer model 
++ Vision Transformer
+![image](https://user-images.githubusercontent.com/80427603/233266971-7779a9d0-2d30-4837-8251-06479ecc8398.png)
+
  + I used ViT base and large models
    + Vision Transformer: Reword: pre-trained on ImageNet-21k (14 million images, 21,843 classes) at resolution 224x224. It was introduced in the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale by Dosovitskiy et al. Images are presented to the model as a sequence of fixed-size patches (resolution 16x16), which are linearly embedded. One also adds a [CLS] token to the beginning of a sequence to use it for classification tasks. One also adds absolute position embeddings before feeding the sequence to the layers of the Transformer encoder.Images are resized/rescaled to the same resolution (224x224) and normalized across the RGB channels with mean (0.5, 0.5, 0.5) and standard deviation (0.5, 0.5, 0.5).
  ![image](https://user-images.githubusercontent.com/80427603/233260210-a744c511-a526-439b-9f0c-c0741957151d.png)
-  
- + CNN and Resnet 
-   + The code for the deep learning model used here is adapted from Johnson et al. which was modified from Practical Deep Learning for Coders course on Fast.ai (see Resources). The images were analyzed using pre-trained CNN models from Fast.ai and were  resized to 128x128. Four CNN models were used on the debitage photos, each with an increased number of “layers” which were expected to increase accuracy. The images were initially analyzed with ResNet18, followed by ResNet34, ResNet50, ResNet101, and ResNet152.
+ 
+  + Fast.ai for Vision
+   + CNN and Resnet 
+   + The code for the deep learning model used here is modified from Practical Deep Learning for Coders course on Fast.ai (see Resources). The images were analyzed using pre-trained CNN models from Fast.ai and were resized to 128x128. Four CNN models were used on the debitage photos, each with an increased number of “layers” which were expected to increase accuracy. The images were initially analyzed with ResNet18, followed by ResNet34, ResNet50, ResNet101, and ResNet152.
    + The number of epochs, the number of times the training data is passed through the CNN, was increased from the initial 4 of the original code to 8 epochs.
 
   
