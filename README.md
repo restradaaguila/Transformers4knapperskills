@@ -41,6 +41,8 @@ This study seeks to combine Dynamic Image Analysis and deep learning methods to 
    + The code for the deep learning model used here is modified from Practical Deep Learning for Coders course on Fast.ai (see Resources). Fast.ai is a deep learning library. Its vision module contains all the needed functions to define a dataset and train a pre-trained model for custom vision tasks. The images were analyzed using pre-trained CNN models from Fast.ai and were resized to 128x128. Four CNN models were used on the debitage photos, each with an increased number of “layers” which were expected to increase accuracy. The images were initially analyzed with ResNet18, followed by ResNet34, ResNet50, ResNet101, and ResNet152.
    + The number of epochs, the number of times the training data is passed through the CNN, was increased from the initial 4 of the original code to 8 epochs.
 
+## Code Demo time!
++ https://colab.research.google.com/drive/1NmxwBfK5MkQQ521gnCyHvofEMKbTvxG-#scrollTo=LSnQ0eX0t1bd
   
 ## Results
 + ViT base-size
@@ -74,9 +76,6 @@ Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
 ![4](https://user-images.githubusercontent.com/80427603/233383000-fd3afc8e-96c0-4f3f-9776-13cdf51b652f.png)
 
 ![2](https://user-images.githubusercontent.com/80427603/233383033-37a86e72-6c8c-41e0-8d4c-1c774a7ce20e.png)
-
-## Code Demo time!
-+ https://colab.research.google.com/drive/1NmxwBfK5MkQQ521gnCyHvofEMKbTvxG-#scrollTo=LSnQ0eX0t1bd
 
 ## Critical Analysis
 
