@@ -49,7 +49,7 @@ This study seeks to combine Dynamic Image Analysis and deep learning methods to 
    + The number of epochs, the number of times the training data is passed through the CNN, was increased from the initial 4 of the original code to 8 epochs.
 
 ## Code Demo time!
-+ https://colab.research.google.com/drive/1NmxwBfK5MkQQ521gnCyHvofEMKbTvxG-#scrollTo=LSnQ0eX0t1bd
++ https://colab.research.google.com/drive/1NmxwBfK5MkQQ521gnCyHvofEMKbTvxG-#scrollTo=vMUkg0mndL0t
   
 ## Results
 + ViT base-size
