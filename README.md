@@ -1,29 +1,21 @@
 # Transformers4knapperskills
-This study seeks to combine DIA and deep learning methods to evaluate if debitage assemblages from knappers with different expertise levels vary significantly. We collected debitage from knappers with varying levels of expertise ranging between 1-20 years of experience.  
+This study seeks to combine DIA and deep learning methods to evaluate if debitage assemblages from knappers with different expertise levels vary significantly. We collected debitage from knappers with varying levels of expertise ranging between <1-15 years of experience.  
 
 ## My Research- Skill and Craftspeople in the Past 
 
 + Knapping- process of chipping stone to produce tools like scrapers, knives, points (aka arrowheads), or can be non functional. 
+   + Knapping communities of the past and skill acquisition in ancient Maya society 
 + While flintknapping studies in archaeology have always been present and popular within the discipline, recent research on flintknapping reflects a growing interest in the connection between artifact variability and the skill of past craft workers. Integral to these investigations is the development of methods to identify the material “signatures” of novice and expert  manufacturers. 
-+  However,  archaeological investigations on craft and skills are faced with the challenge of identifying craftsmanship and skill acquisition in the material record (Roddick and Stahl 2016:7, Wendrich 2013, Milne 2013). To bridge the gap between past craft production and present interest in these topics, archaeologusts can turn to living craftspeople replicating ancient techniques and technologies (experimental archaeology). 
-
-+ Knapping communities of the past and skill acquisition in ancient Maya society 
-
-+ Experimental knapping and novice/expert ID 
++  However, archaeological research on craft and skills is faced with the challenge of identifying craftsmanship and skill acquisition in the material record (Roddick and Stahl 2016:7, Wendrich 2013, Milne 2013). To bridge the gap between past craft production and present interest in these topics, archaeologusts can turn to living craftspeople replicating ancient techniques and technologies (experimental archaeology). 
 
 ![Figure 2_Volunteer_knapper](https://user-images.githubusercontent.com/80427603/233222699-6fbd0a22-167d-4e1a-a1ec-78499defad63.jpg)
 ![Debitage pic](https://user-images.githubusercontent.com/80427603/233234557-d92cbcbd-8ac3-4435-ac9c-99eb4090020d.png)
-
-![Figure3_PartAn3D_analyzer](https://user-images.githubusercontent.com/80427603/233233767-3ada0aaa-bb21-4b1a-b8dd-0f6bf7011fc5.jpg)
-
++ Microdebitage- flintknapping debris smaller than about a 1/4 inch long. They are fairly difficult to analyze because of their small size, but because of that microdebitage is less likely to be moved, modified, disposed by people. 
    
 ## Approach 
-
-+  2 key parts to achieve self supervised learning with MAE:
-  + Novelty of approach is assymetric encoder-decoder architecture
-  + Masking a large portion of the image is the most effective to learning
-   + Image divided into non-overlapping patches => sample a subset of patches and mask the rest. 
-
++   Comapring CNN and Vision transformer
+![Figure3_PartAn3D_analyzer](https://user-images.githubusercontent.com/80427603/233233767-3ada0aaa-bb21-4b1a-b8dd-0f6bf7011fc5.jpg)
++   Comapring CNN and Vision transformer
 ## Architecture Overview
  + ViT 
    + Encoder operates on the patches without mask tokens (below we see the patches with the flamingo visible are going into the encoder)
@@ -37,17 +29,8 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
    + Full input image is reconstructed with predicted pixel values for masked squares. 
 + Differences between input image and reconstruction are measured and used as loss (mean sq. error)
 + After pre-training decoder is discarded and encoder is kept for fine tuning, later used downstream tasks 
-
-Q1: what are the positional embeddings for? 
-+ Guide Q: What are they for in NLP models?
-
-Q2: What is the advantage of the assymetric architecture? What about the masking ratio?
-+ Guide Q: how much data is the encoder working with compared to the decoder? What is the main issue images v language?
-
-   
-  ![image](https://user-images.githubusercontent.com/80427603/222825277-991b51be-050f-4fa6-a72d-2e7dbc30cde9.png)
-
-## Key Results
+  
+## Results
 Image with mask tokens, reconstructed image, original image
 
 ![image](https://user-images.githubusercontent.com/80427603/223009216-00b5c5a3-597b-4224-8e5f-bbb50080c8fe.png)
@@ -80,12 +63,14 @@ Image with mask tokens, reconstructed image, original image
    + Table 7 shows comparison of pixel and token reconstruction. Pixel based reconstruction works fine (if normalized)
 
 ## Code Demo time!
-+ The two senior authors created a repo with this demo (https://colab.research.google.com/drive/1NXe-zBSYKZTDugepN9_uFRDT8Ti708Vk#scrollTo=4573e6be-935a-4106-8c06-e467552b0e3d)
++ https://colab.research.google.com/drive/1NmxwBfK5MkQQ521gnCyHvofEMKbTvxG-#scrollTo=LSnQ0eX0t1bd
 
 ## Critical Analysis
 
 + Archaeologist’s approach to identifying novice work can be based on assumptions - novice/apprentice craftspeople are assumed to produce low quality products. 
-“poor quality” is relative and unclear  (Wendrich 2013). DIA and deep learning models like ViT may provide a method to avoid this unreliable term along with other assumptions on how to identify novice and expert craftsmanship in the archaeological reocrd. 
+   + “poor quality” is relative and unclear (Wendrich 2013). DIA and deep learning models, like ViT, may provide a method to avoid this unreliable term along with other assumptions on how to identify novice and expert craftsmanship in the archaeological reocrd. 
++ What's next?
+   + 
 
 
 ## Additional Resources 
