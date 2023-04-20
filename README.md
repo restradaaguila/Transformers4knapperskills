@@ -50,7 +50,9 @@ hot 2023-04-20 091907](https://user-images.githubusercontent.com/80427603/233396
 ![Screenshot 2023-04-20 092006](https://user-images.githubusercontent.com/80427603/233399092-316d1383-c6d5-4e92-962e-8825b94958cc.png)
 
    + 4 epochs 
- 
+![4 epochs](https://user-images.githubusercontent.com/80427603/233403763-30080303-1081-4213-b326-772532980ef3.png)
+
+![4 epoch confusion](https://user-images.githubusercontent.com/80427603/233403787-29944ed6-f4da-4151-9082-4d95abd9b47d.png)
 
 
 Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
