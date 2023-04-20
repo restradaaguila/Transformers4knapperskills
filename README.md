@@ -48,10 +48,7 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
    + Applying larger vision models to see if accuracy is improved 
 
 ## Additional Resources 
-+ Intro to autoencoders video (https://www.youtube.com/watch?v=qiUEgSCyY5o&ab_channel=IBMTechnology)
-+ This is a link to a Chen and He's repo on Github: (https://github.com/facebookresearch/mae)
-+ ViT paper: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (https://arxiv.org/abs/2010.11929)
-+ Vison transformers compared in paper: DINO (https://arxiv.org/abs/2104.14294) MoCov3 (https://paperswithcode.com/method/moco-v3) BEiT (https://arxiv.org/abs/2106.08254)
-+ Proposed modification of MAE paper with github link: (https://openreview.net/pdf?id=qm5LpHyyOUO)
-
++ Intro to fast.ai https://arxiv.org/abs/2002.04688
+   + Fast.ai vision tutorial and code https://docs.fast.ai/tutorial.vision.html
++ 
 ## Questions?
