@@ -39,9 +39,16 @@ This study seeks to combine Dynamic Image Analysis and deep learning methods to 
 ![ViTtrainingresults](https://user-images.githubusercontent.com/80427603/233378433-3583c1e2-b114-4434-a5da-4d3fadb92305.png)
 
 ![confusionmatrixViT](https://user-images.githubusercontent.com/80427603/233378449-09656102-d19e-4ef7-b02e-38a5b28f216b.png)
-   + 5 epochs
+    + 5 epochs
 ![5 epochs](https://user-images.githubusercontent.com/80427603/233378722-0fcc10da-c7cf-45fd-867b-8a571420758f.png)
 ![confusionmatrix_5epochs](https://user-images.githubusercontent.com/80427603/233378743-048b2d4e-272f-4ac7-a3cf-0b0764498166.png)
++ ViT large 
+   + 3 epochs
+![Screens![Screenshot 2023-04-20 092006](https://user-images.githubusercontent.com/80427603/233396439-3629bed4-d20a-4d7a-980e-906534374884.png)
+hot 2023-04-20 091907](https://user-images.githubusercontent.com/80427603/233396387-1fb18026-8516-4110-bb93-13e2670baa7b.png)
+   + 4 epochs 
+ 
+
 
 Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
 ![4](https://user-images.githubusercontent.com/80427603/233383000-fd3afc8e-96c0-4f3f-9776-13cdf51b652f.png)
@@ -67,6 +74,7 @@ Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
 + ViT paper: https://arxiv.org/abs/2010.11929
 +  Huggingface ViT large model: https://huggingface.co/google/vit-large-patch16-224-in21k#vision-transformer-large-sized-model
    + base model: https://huggingface.co/google/vit-base-patch16-224-in21k
++ Rogge github with notebook: https://github.com/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Fine_tuning_the_Vision_Transformer_on_CIFAR_10_with_the_%F0%9F%A4%97_Trainer.ipynb
 + Literature cited 
    + Wendrich, Willeke
 2013	Recognizing Knowledge Transfer in the Archaeological RecordIn Archaeology and Apprenticeship : Body Knowledge, Identity, and Communities of Practice, edited by Willeke Wendrich. University of Arizona Press, Tucson.
