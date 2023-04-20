@@ -1,25 +1,18 @@
 # Transformers4knapperskills
 This study seeks to combine DIA and deep learning methods to evaluate if debitage assemblages from knappers with different expertise levels vary significantly. We collected debitage from knappers with varying levels of expertise ranging between 1-20 years of experience.  
 
-## Background
-+ Autoencoders- technique that uses encoder-decoder architecture to  learn how to compress and reconstruct data. It is mainly used for unsupervised learning.  
-   + Computer vision: autoencoding can be used to remove noise from images, generate new images, or find hidden patterns in images.
-+  Masked autoencoders (MAE): removes a portion of the data so the model can learn to predict the removed information. Masked auto encoding has been successfully applied to train generalizable NLP models (e.g BERT).  The authors, He and colleagues, argue that masked autoencoder models can be succesfully applied to computer vison. 
+## My Research- Skill and Craftspeople in the Past 
 
-## Research Question
-+ What makes masked autoencoding different between vision and language? 
-   + Architecture
-      +  Vision architecture used to be predominantly convolutional neural networks (CNN), which made integrating mask tokens and positional embeddings more difficult.
-            + That changed with Vision Transformers (ViT)! 
-            + Transformer architecture- Applying mask tokens and positional embeds more feasible. 
-   +  Information density
-      + Language is information dense and packed with meaning- masking a few word is enough of a challenge 
-     + Images are heavy in spatial redundancy- masking can reduce redundancy and presents a more challenging task. 
-   + Decoder
-      + Language- predicts words
-      + Image- reconstructs pixels
++ Knapping- process of chipping stone to produce tools like scrapers, knives, points (aka arrowheads), or can be non functional. 
++ While flintknapping studies in archaeology have always been present and popular within the discipline, recent research on flintknapping reflects a growing interest in the connection between artifact variability and the skill of past craft workers. Integral to these investigations is the development of methods to identify the material “signatures” of novice and expert  manufacturers. 
++  However,  archaeological investigations on craft and skills are faced with the challenge of identifying craftsmanship and skill acquisition in the material record (Roddick and Stahl 2016:7, Wendrich 2013, Milne 2013). To bridge the gap between past craft production and present interest in these topics, archaeologusts can turn to living craftspeople replicating ancient techniques and technologies (experimental archaeology). 
 
-+ What is the best performing method for applying MAE to vision?
+![Figure 2_Volunteer_knapper](https://user-images.githubusercontent.com/80427603/233222699-6fbd0a22-167d-4e1a-a1ec-78499defad63.jpg)
+![image] (
+Knapping communities of the past and skill acquisition in ancient Maya society 
+
+Experimental knapping and novice/expert ID 
+
    
 ## Approach 
 
