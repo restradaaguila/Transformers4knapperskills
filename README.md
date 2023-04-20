@@ -71,7 +71,7 @@ Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
 ## Additional Resources 
 + Intro to fast.ai https://arxiv.org/abs/2002.04688
    + Fast.ai vision tutorial and code https://docs.fast.ai/tutorial.vision.html
-+ ViT paper: https://arxiv.org/abs/2010.11929
++ ViT paper,  An Image is Worth 16x16 Words: https://arxiv.org/abs/2010.11929
 +  Huggingface ViT large model: https://huggingface.co/google/vit-large-patch16-224-in21k#vision-transformer-large-sized-model
    + base model: https://huggingface.co/google/vit-base-patch16-224-in21k
 + Rogge github with notebook: https://github.com/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Fine_tuning_the_Vision_Transformer_on_CIFAR_10_with_the_%F0%9F%A4%97_Trainer.ipynb
