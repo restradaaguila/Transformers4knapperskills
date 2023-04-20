@@ -1,5 +1,5 @@
 # Transformers4knapperskills
-This study seeks to combine Dynamic Image Analysis and deep learning methods to evaluate if debitage assemblages from knappers with different expertise levels vary significantly. We collected debitage from knappers with varying levels of expertise ranging between <1-15 years of experience.  
+This study seeks to combine Dynamic Image Analysis and deep learning methods to evaluate if debitage assemblages from knappers with different expertise levels vary significantly. I collected debitage from knappers with varying levels of expertise ranging between <1-15 years of experience.  
 
 ## My Research- Skill and Craftspeople in the Past 
 
