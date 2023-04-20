@@ -5,7 +5,7 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 
 + Knapping- process of chipping stone to produce tools like scrapers, knives, points (aka arrowheads), or can be non functional. 
    + Knapping communities of the past and skill acquisition in ancient Maya society 
-+ While flintknapping studies in archaeology have always been present and popular within the discipline, recent research on flintknapping reflects a growing interest in the connection between artifact variability and the skill of past craft workers. Integral to these investigations is the development of methods to identify the material “signatures” of novice and expert  manufacturers. 
++ While flintknapping studies in archaeology have always been present and popular within the discipline, recent research on flintknapping reflects a growing interest in the connection between artifact variability and the skill of past craft workers. Integral to these investigations is the development of methods to identify the material “signatures” of novice and expert  manufacturers (Amick and Mauldin 1989, Clark 1997 AND 2003, Shelley 1990). 
 +  However, archaeological research on craft and skills is faced with the challenge of identifying craftsmanship and skill acquisition in the material record (Roddick and Stahl 2016:7, Wendrich 2013, Milne 2013). To bridge the gap between past craft production and present interest in these topics, archaeologusts can turn to living craftspeople replicating ancient techniques and technologies (experimental archaeology). 
 
 ![Figure 2_Volunteer_knapper](https://user-images.githubusercontent.com/80427603/233222699-6fbd0a22-167d-4e1a-a1ec-78499defad63.jpg)
@@ -67,4 +67,24 @@ Lets compare that to the CNN model using ResNet101 and 152 at 8 epochs
 + ViT paper: https://arxiv.org/abs/2010.11929
 +  Huggingface ViT large model: https://huggingface.co/google/vit-large-patch16-224-in21k#vision-transformer-large-sized-model
    + base model: https://huggingface.co/google/vit-base-patch16-224-in21k
++ Literature cited 
+   + Wendrich, Willeke
+2013	Recognizing Knowledge Transfer in the Archaeological RecordIn Archaeology and Apprenticeship : Body Knowledge, Identity, and Communities of Practice, edited by Willeke Wendrich. University of Arizona Press, Tucson.
+   + Milne, S. Brooke 
+2013	Lithic Raw Material Availability and Palaeo- Eskimo Novice Flintknapping. In Archaeology and Apprenticeship : Body Knowledge, Identity, and Communities of Practice, edited by Willeke Wendrich. University of Arizona Press, Tucson. 
+   + Roddick, Andrew P.; Stahl, Anne B. 
+2016	Introduction: Knowledge in Motion. In Knowledge in motion : constellations of learning across time and place. Edited by Andrew Roddick and Anne P. Stahl. University of Arizona Press, Tucson.
+   + Shelley, P. H. 
+1990	Variation in Lithic Assemblages: An Experiment. Journal of Field Archaeology 17(2):187-193.
+   + Amick, D. S. and R. P. Mauldin
+ 1989 	Experiments in Lithic Technology. BAR International Series 528, Oxford. 
+   + Clark, John E. 
+1997	Prismatic Blademaking, Craftsmanship, and Production: An analysis of obsidian refuse from Ojo de Agua, Chiapas, Mexico. Ancient Mesoamerica 8: 137-159.
+
+   2003	Craftsmanship and Craft Specialization. In Mesoamerican Lithic Technology: Experimentation and Interpretation, edited by K.G. Hirth. Salt Lake City: University of Utah Press, Salt Lake City. 
+
+
+
+
+
 ## Questions?
