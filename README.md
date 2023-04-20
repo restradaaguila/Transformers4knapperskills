@@ -5,8 +5,15 @@ This study seeks to combine Dynamic Image Analysis and deep learning methods to 
 
 + Knapping- process of chipping stone to produce tools like scrapers, knives, points (aka arrowheads), or can be non functional. 
    + Knapping communities of the past and skill acquisition in ancient Maya society 
-+ While flintknapping studies in archaeology have always been present and popular within the discipline, recent research on flintknapping reflects a growing interest in the connection between artifact variability and the skill of past craft workers. Integral to these investigations is the development of methods to identify the material “signatures” of novice and expert  manufacturers (Amick and Mauldin 1989, Clark 1997 AND 2003, Shelley 1990). 
-+  However, archaeological research on craft and skills is faced with the challenge of identifying craftsmanship and skill acquisition in the material record (Roddick and Stahl 2016:7, Wendrich 2013, Milne 2013). To bridge the gap between past craft production and present interest in these topics, archaeologists can turn to living craftspeople replicating ancient techniques and technologies (experimental archaeology). 
++ Setting up the Problem:
+   + While flintknapping studies in archaeology have always been present and popular within the discipline, recent research on flintknapping reflects a growing interest in the connection between artifact variability and the skill of past craft workers. Integral to these investigations is the development of methods to identify the material “signatures” of novice and expert  manufacturers (Amick and Mauldin 1989, Clark 1997 AND 2003, Shelley 1990). 
+   +  However, archaeological research on craft and skills is faced with the challenge of identifying craftsmanship and skill acquisition in the material record (Roddick and Stahl 2016:7, Wendrich 2013, Milne 2013). To bridge the gap between past craft production and present interest in these topics, archaeologists can turn to living craftspeople replicating ancient techniques and technologies (experimental archaeology). But, analysis of debitage is subjective, non-standardized, and extremely time consuming using traditional methods. 
++  My Method 
+   +  Using experimental samples collected from contemporary flintknappers
+   +  Particle analyzer and Dynamic Image Analysis to provide images for image classification
+   +  Deep learning methods to identify skill level and variation between individual knappers. 
+      +  Comparing CNN and Vision tranformer performance
+   +  Not focusing on the product, but on the byproduct!
 
 ![Figure 2_Volunteer_knapper](https://user-images.githubusercontent.com/80427603/233222699-6fbd0a22-167d-4e1a-a1ec-78499defad63.jpg)
 ![Debitage pic](https://user-images.githubusercontent.com/80427603/233234557-d92cbcbd-8ac3-4435-ac9c-99eb4090020d.png)
