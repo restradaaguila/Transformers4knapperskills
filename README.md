@@ -15,15 +15,17 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 ## Dataset Information and Classification
    + The chert debitage collected for this study was produced from experimental knapping collected from Tennessee knap-ins between July and October 2021. The debitage collected represents two experience levels chosen to train the models: Novice and Expert. These categories are based on the years of experience of the knapper. The data on experience was gathered from the short surveys and brief interviews. Debitage was gathered from three volunteer knappers with varying years of experience. The novice knapper had less than a year of experience and the two volunteers classified under expert have 7 and 15 years of knapping experience. 
 
+![Figure3_PartAn3D_analyzer](https://user-images.githubusercontent.com/80427603/233233767-3ada0aaa-bb21-4b1a-b8dd-0f6bf7011fc5.jpg)
+![Screenshot 2023-04-20 001215](https://user-images.githubusercontent.com/80427603/233264364-463b1714-9cc9-494b-be0b-444754d659d7.png)
++ 8000 images were fed into the models- 5000 from the Expert category and 3000 from the Novice category
 # The Models
 +Comapring CNN and Vision transformer
-![Figure3_PartAn3D_analyzer](https://user-images.githubusercontent.com/80427603/233233767-3ada0aaa-bb21-4b1a-b8dd-0f6bf7011fc5.jpg)
 +   Comapring CNN and Vision transformer
-+ Transformer 
   + 8004 images were fed to the transformer model 
-## Architecture Overview
- + ViT 
-   + Fine tuning
+ + I used ViT base and large models
+   + Vision Transformer: Reword: pre-trained on ImageNet-21k (14 million images, 21,843 classes) at resolution 224x224. It was introduced in the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale by Dosovitskiy et al. Images are presented to the model as a sequence of fixed-size patches (resolution 16x16), which are linearly embedded. One also adds a [CLS] token to the beginning of a sequence to use it for classification tasks. One also adds absolute position embeddings before feeding the sequence to the layers of the Transformer encoder.Images are resized/rescaled to the same resolution (224x224) and normalized across the RGB channels with mean (0.5, 0.5, 0.5) and standard deviation (0.5, 0.5, 0.5).
+ ![image](https://user-images.githubusercontent.com/80427603/233260210-a744c511-a526-439b-9f0c-c0741957151d.png)
+  
  + CNN and Resnet 
    + The code for the deep learning model used here is adapted from Johnson et al. which was modified from Practical Deep Learning for Coders course on Fast.ai (see Resources). The images were analyzed using pre-trained CNN models from Fast.ai and were  resized to 128x128. Four CNN models were used on the debitage photos, each with an increased number of “layers” which were expected to increase accuracy. The images were initially analyzed with ResNet18, followed by ResNet34, ResNet50, ResNet101, and ResNet152.
    + The number of epochs, the number of times the training data is passed through the CNN, was increased from the initial 4 of the original code to 8 epochs.
@@ -50,5 +52,7 @@ This study seeks to combine DIA and deep learning methods to evaluate if debitag
 ## Additional Resources 
 + Intro to fast.ai https://arxiv.org/abs/2002.04688
    + Fast.ai vision tutorial and code https://docs.fast.ai/tutorial.vision.html
-+ 
++ ViT paper: https://arxiv.org/abs/2010.11929
++  Huggingface ViT large model: https://huggingface.co/google/vit-large-patch16-224-in21k#vision-transformer-large-sized-model
+   + base model: https://huggingface.co/google/vit-base-patch16-224-in21k
 ## Questions?
